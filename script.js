@@ -10,3 +10,14 @@ taskbar.addEventListener("click", ()=>{
         startmenu.style.bottom = "50px"
     }
 })
+
+// let icons = document.getElementsByClassName("icons")[0]
+// let chrome = document.getElementsByClassName("chrome")[0]
+// 
+// icons.addEventListener("click", ()=>{
+    // if (typeof window.addEventListener != "undefined") {
+        // chrome.addEventListener("click",handleclick,false);
+    // } else {
+        // chrome.attachEvent("onclick",handleclick);
+    // }
+// })
