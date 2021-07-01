@@ -43,4 +43,14 @@ body{
 .icons{
     color: black;
     width: 40px;
+    top: 0px;
+    position: absolute;
+    justify-content: center;
+}
+
+.vscode{
+    color: black;
+    width: 40px;
+    right: 0;
+    height: 85%;
 }
