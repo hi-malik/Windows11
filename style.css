@@ -40,17 +40,22 @@ body{
     height: 85%;
 }
 
-.icons{
+.computer{
     color: black;
-    width: 40px;
-    top: 0px;
     position: absolute;
-    justify-content: center;
+    width: 40%;
+    margin-top: 10;
+    
 }
 
-.vscode{
-    color: black;
-    width: 40px;
-    right: 0;
-    height: 85%;
+.computer img{
+    border-radius: 15px;
+}
+
+.thispc{
+    position: absolute;
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
 }

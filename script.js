@@ -11,13 +11,16 @@ taskbar.addEventListener("click", ()=>{
     }
 })
 
-// let icons = document.getElementsByClassName("icons")[0]
-// let chrome = document.getElementsByClassName("chrome")[0]
-// 
-// icons.addEventListener("click", ()=>{
-    // if (typeof window.addEventListener != "undefined") {
-        // chrome.addEventListener("click",handleclick,false);
-    // } else {
-        // chrome.attachEvent("onclick",handleclick);
-    // }
-// })
+
+let computer = document.getElementsByClassName("computer")[0]
+let thispc = document.getElementsByClassName("thispc")[0]
+
+computer.addEventListener("click", ()=>{
+    console.log("clicked");
+    if(thispc.style.bottom == "50px"){
+        thispc.style.bottom = "-655px"
+    }
+    else{
+        thispc.style.bottom = "50px"
+    }
+})
